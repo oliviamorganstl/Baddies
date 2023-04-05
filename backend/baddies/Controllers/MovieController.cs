@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace baddies.Controllers
-{
+{ //This file is in charge of filtering so that only the edited movies display
     [ApiController]
     [Route("[controller]")]
     public class MovieController: Controller

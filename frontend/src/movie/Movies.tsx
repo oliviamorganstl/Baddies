@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Movie } from '../types/movie';
-//const mds = data.MovieData;
+//This file displays the Movies page pulling from the api
 function MovieList() {
   const [listOMovies, setListOMovies] = useState<Movie[]>([]);
 

@@ -3,7 +3,7 @@
 namespace baddies.Data
 {
     public class JoelMovie
-    {
+    {//Setting up the database :)
         [Key]
         public int MovieId { get; set; }
         public string? Category { get; set; }
