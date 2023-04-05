@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import MovieList from './Movies';
-import Baconsale from './Podcasts';
-import AboutJoel from './Home';
-import Navbar from './navbar';
+import MovieList from '../movie/Movies';
+import Baconsale from '../Podcasts';
+import AboutJoel from '../Home';
+import Navbar from '../navbar';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
